@@ -43,8 +43,9 @@ b {
 em,
 i {
     font-family: 'Cairo', sans-serif;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-transform: capitalize;
+    font-size: 14px;
 }
 
 u {
