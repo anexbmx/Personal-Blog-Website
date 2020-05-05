@@ -64,6 +64,14 @@ body {
     color: #673AB7;
 }
 
+#main .cover {
+    width: 100%;
+}
+
+#main figcaption {
+    text-align: right;
+}
+
 
 /*
 * Author info

@@ -74,3 +74,11 @@ blockquote::after {
     content: '\201D';
     font-size: 40px;
 }
+
+figure {
+    margin: 0;
+}
+
+figure figcaption {
+    text-align: center;
+}
