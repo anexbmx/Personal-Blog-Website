@@ -1,0 +1,67 @@
+@import './header.css';
+@import './typography.css';
+@import './card.css';
+@import './footer.css';
+
+body {
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+/*
+* Main
+*/
+
+#main {
+    padding: 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+#main h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+/*
+* Grid Container
+*/
+
+.grid-container {
+    display: grid;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-columns: 1fr;
+}
+
+
+/*
+*  Container
+*  nested grid
+*/
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(1, 250px);
+    grid-auto-rows: minmax(200px, auto);
+    grid-gap: 20px;
+    justify-content: center;
+ }
+ 
+ @media screen and (min-width: 600px) {
+
+     .container {
+         grid-template-columns: repeat(2, 270px);
+     }
+ }
+ 
+ @media screen and (min-width: 900px) {
+
+     .container {
+         grid-template-columns: repeat(3, 260px);
+     }
+ }
+
+

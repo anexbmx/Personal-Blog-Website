@@ -1,0 +1,15 @@
+/*
+* footer
+*/
+
+footer {
+    padding: 16px;
+    background-color: #2BBBAD;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+}

@@ -1,0 +1,75 @@
+h1,
+h2,
+h3 {
+    font-family: 'Cairo', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+h1 {
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+p {
+    font-family: 'Cairo', sans-serif;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 5px 0;
+    font-weight: 600;
+}
+
+a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #2BBBAD;
+}
+
+strong,
+b {
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+em,
+i {
+    font-family: 'Cairo', sans-serif;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+u {
+    font-family: 'Cairo', sans-serif;
+    text-decoration: underline;
+    font-style: italic;
+    letter-spacing: 2px;
+    color: #2196f3;
+}
+
+blockquote {
+    font-family: 'Cairo', sans-serif;
+    padding: 15px;
+    background: #eee;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    line-height: 1;
+}
+
+blockquote::before {
+    content: '\201C';
+    font-size: 40px;
+}
+
+blockquote::after {
+    content: '\201D';
+    font-size: 40px;
+}

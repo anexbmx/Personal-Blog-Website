@@ -1,0 +1,38 @@
+/*
+* Card
+*/
+
+article {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+article .title-post {
+    color: #673AB7
+}
+
+article .img-post {
+    width: 100%;
+    margin-top: 10px;
+}
+
+article .description {
+    margin-top: 0;
+    color: #666669;
+}
+
+article .btn-read-more {
+    background: #673AB7;
+    color: #fff;
+    border: 0;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+article .btn-read-more:hover {
+    background: #5717c7;
+}
